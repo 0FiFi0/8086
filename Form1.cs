@@ -37,6 +37,14 @@ namespace Projekt8086
 
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+            _obj = this;
+
+            moV1.Hide();
+            xchG1.Hide();
+        }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -61,6 +69,12 @@ namespace Projekt8086
         private void printPreviewDialog1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void MOV_Click(object sender, EventArgs e)
+        {
+            xchG1.Hide();
+            moV1.Show();
         }
 
         private void XCHG_btn_Click(object sender, EventArgs e)

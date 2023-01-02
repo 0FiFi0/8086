@@ -22,8 +22,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.XCHG_btn = new System.Windows.Forms.Button();
             this.MOV_btn = new System.Windows.Forms.Button();
             this.moV1 = new Projekt8086.MOV();
+            this.xchG1 = new Projekt8086.XCHG();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
@@ -52,6 +54,16 @@
             this.panel1.TabIndex = 14;
 
 
+            this.XCHG_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.XCHG_btn.Location = new System.Drawing.Point(21, 158);
+            this.XCHG_btn.Name = "XCHG_btn";
+            this.XCHG_btn.Size = new System.Drawing.Size(75, 23);
+            this.XCHG_btn.TabIndex = 0;
+            this.XCHG_btn.Text = "XCHG";
+            this.XCHG_btn.UseVisualStyleBackColor = true;
+            this.XCHG_btn.Click += new System.EventHandler(this.XCHG_btn_Click);
+
+
             this.MOV_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.MOV_btn.Location = new System.Drawing.Point(21, 118);
             this.MOV_btn.Name = "MOV_btn";
@@ -66,6 +78,12 @@
             this.moV1.Name = "moVwind1";
             this.moV1.Size = new System.Drawing.Size(460, 310);
             this.moV1.TabIndex = 15;
+
+
+            this.xchG1.Location = new System.Drawing.Point(127, 0);
+            this.xchG1.Name = "xchGwid1";
+            this.xchG1.Size = new System.Drawing.Size(460, 310);
+            this.xchG1.TabIndex = 16;
 
 
             this.panel2.BackColor = System.Drawing.Color.Gray;
@@ -88,6 +106,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(583, 311);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.xchG1);
             this.Controls.Add(this.moV1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
@@ -106,6 +125,7 @@
         private Button XCHG_btn;
         private Button MOV_btn;
         private MOV moV1;
+        private XCHG xchG1;
         private Label label1;
         private Panel panel2;
     }
