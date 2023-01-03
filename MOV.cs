@@ -1,4 +1,4 @@
-﻿namespace Projekt8086
+﻿namespace Procesor8086
 {
     public partial class MOV : UserControl
     {

@@ -1,4 +1,4 @@
-﻿namespace Projekt8086
+﻿namespace Procesor8086
 {
     public partial class XCHG : UserControl
     {
@@ -269,6 +269,26 @@
             bx_value_box.Text = BX.ToString();
             cx_value_box.Text = CX.ToString();
             dx_value_box.Text = DX.ToString();
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
 
         }
     }
